@@ -16,22 +16,43 @@ TrackForce is a system that allows Revature management to track the lifecycle of
 A user can login and is authenticated as having a particular role. Charts display data on the number of associates that are mapped & unmapped and the number of assoicates in each stage of mapped or unmapped. The sections of these pie charts can be clicked to view further information in charts such as skill (curriculum) for unmapped associates and clients for mapped associates. There is also an assoicates table that utilizes filters in order to search for a particlular group of associates. The Client navigation link brings you to a page that permits the user to search for a particular client and view the statistics for that client. Finally, when a user clicks the Batch navigation link they are able to view the batches that are running within a particular date range. The user can also click a batch name to view further information about that batch and view a list of the associates in that batch. Additionally, when an associate name is clicked within the application, you are brought to a form that allows you to update the associates status and/or client name and these changes are reflected throughout the application.
 
 ### Current Features
- - Login to application and user role is authenticated
- - View graphical data of mapping status' of associates
- - Sections of charts on homepage can be clicked to take the user to more detailed information
- - Display infomation and graphs for the assoicates in an individual batch
- - Portray metrics on the associates sent to a particular client
- - Filter a table of associates based on status, client, skills, and text input
+ _dev1804 Release Features 
 
-### Future Features
- - Restrict access to the pages that update infomation for users with particular roles
- - Develop charts that show future projections based off of current data
- - View graphical representations of how long an associate spends in a particular role
- 
- ## Users / Stakeholders
- 
++ Updated Roles:
+	Associate
+	Trainer
+	Staging Manager
+	Delivery / Sales
+
++ Updated the Associate model 
++ Updated the Interview model
++ Associates can creates users and associates
++ Associate has a personal information splash page
++ Predictions additional functionally
+
+
+
+ADDED ISSUES 
+
+- Batch List does not load
+- Sort by Verification Status does nothing
+- Searching batches doesn't work
+- Toggle create new interview form not creating new interview
+- "My Interview" "save" button does not save
+- Typed elements do not appear in DOM
+- Associate can log in prior to approval
+- Updating Associates from the AssociateList useing the Wrong Resources
+- Interview is on NavBar for non Associates
+- Updating Associate with Feedback/Questions does not work/persistence
+- Setting 24Hour Notice Does not Work/Set
+- Being able to login as an Associate without being approved.
+- Assoicate Updates an Interview Angular1804 Jersery1804 Testing1804
+- Get the Angular to Take Hibernate Entity Objects Angular1804 Hibernate1804 Jersery1804
+- ReWork The Caching to use the Entities instead of the model Hibernate1804 Jersery1804
+- Service: Add use case for bulk update (HTTP POST) Jersery1804
+
+
  ### Primary Users
- VP of Technology, Managers, Admin
- 
+	Associate, Trainer, Staging Manager,and Delivery / Sales
  ### Stakeholders
  Salesforce Team, Sales Team, Staging
